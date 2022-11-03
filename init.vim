@@ -15,7 +15,7 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'mkitt/tabline.vim'
 Plug 'ryanoasis/vim-devicons'
 "Color:
-Plug 'morhetz/gruvbox'
+Plug 'flazz/vim-colorschemes'
 "Golang:
 Plug 'fatih/vim-go'
 "Autocomplete:
@@ -48,7 +48,7 @@ vnoremap > >gv
 
 "COLOR:
 "------
-colorscheme gruvbox
+colorscheme gruvbox 
 
 "AUTO IMPORT:
 "------------
