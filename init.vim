@@ -156,6 +156,8 @@ nnoremap <silent> <C-l> :nohl<CR><C-l>
 " Highlight the current line the cursor is on
 set cursorline
 
+inoremap jk <ESC>
+
 map ds :GoDebugStart<cr>
 map dt :GoDebugStop<cr>
 map db :GoDebugBreakpoint<cr>
