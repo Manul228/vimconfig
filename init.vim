@@ -29,6 +29,7 @@ Plug 'ncm2/ncm2-ultisnips'
 Plug 'SirVer/ultisnips'
 "Git:
 Plug 'tpope/vim-fugitive'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 "COPY/PASTE:
@@ -157,6 +158,7 @@ nnoremap <silent> <C-l> :nohl<CR><C-l>
 set cursorline
 
 inoremap jk <ESC>
+noremap nt :NERDTreeFocusToggle<CR>
 
 map ds :GoDebugStart<cr>
 map dt :GoDebugStop<cr>
